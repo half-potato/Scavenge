@@ -1,8 +1,7 @@
 ﻿#pragma strict
 
 var lifeSpan:float = 3;
-var explosion:GameObject;
-
+var player:GameObject;
 
 function Start () {
 
@@ -17,6 +16,7 @@ function Update () {
 
 function OnCollisionEnter(col:Collision){
 	if(col.gameObject.tag == "Player"){
-		Destroy(col.gameObject);
+		col.gameObject.GetComponent(PlayerStats).playerLives-=1;
+		Destroy(gameObject);
 	}
 }

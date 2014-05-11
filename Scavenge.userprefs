@@ -1,38 +1,14 @@
 ﻿<Properties>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Objects/TurretController.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GUI\HungerMenu.js">
     <Files>
-      <File FileName="Assets/Scripts/Objects/TurretController.js" Line="18" Column="74" />
-=======
-<<<<<<< HEAD
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Objects\TurretController.js">
-    <Files>
-      <File FileName="Assets\Scripts\FPC\FPC Particle Detector.js" Line="4" Column="54" />
-      <File FileName="Assets\Scripts\FPC\FPC Collider.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FPC\FPS_Shooting.js" Line="63" Column="5" />
-      <File FileName="Assets\Scripts\Objects\TurretController.js" Line="12" Column="2" />
-      <File FileName="Assets\Scripts\Objects\SpawnMeteor.js" Line="14" Column="24" />
-=======
->>>>>>> 1c8f607f8b3ef0409aea5f2f8afa15fc5b55c7d1
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Particles Bullets\ExplosiveBullet.js">
-    <Files>
-<<<<<<< HEAD
-      <File FileName="Assets\Scripts\Objects\zTurretController.js" Line="34" Column="2" />
-      <File FileName="Assets\Scripts\FPC\FPS_Shooting.js" Line="82" Column="23" />
-      <File FileName="Assets\Scripts\Objects\TurretController.js" Line="17" Column="5" />
-      <File FileName="Assets\Scripts\Particles Bullets\ExplosiveBullet.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Particles Bullets\TurretBullet.js" Line="14" Column="16" />
-=======
-      <File FileName="Assets/Scripts/Objects/TurretController.js" Line="7" Column="21" />
-      <File FileName="Assets/Scripts/FPC/FPC.js" Line="51" Column="60" />
->>>>>>> 9049845305789ed5a987a8501e0afbe0ca25ce06
->>>>>>> FETCH_HEAD
->>>>>>> 1c8f607f8b3ef0409aea5f2f8afa15fc5b55c7d1
+      <File FileName="Assets\Scripts\Objects\zTurretController.js" Line="26" Column="20" />
+      <File FileName="Assets\Scripts\Particles Bullets\ExplosiveBullet.js" Line="28" Column="20" />
+      <File FileName="Assets\Scripts\GUI\HungerMenu.js" Line="1" Column="10" />
+      <File FileName="Assets\Scripts\FPC\FPC Particle Detector.js" Line="2" Column="23" />
+      <File FileName="Assets\Scripts\FPC\IsAlive.js" Line="4" Column="11" />
+      <File FileName="Assets\Scripts\FPC\PlayerStats.js" Line="16" Column="3" />
+      <File FileName="Assets\Scripts\Objects\TurretController.js" Line="5" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -5,5 +5,7 @@ function Update(){
 }
 
 function OnTriggerEnter (other : Collider) {
-		Destroy(other.gameObject);
+	if(other.gameObject.tag == "Player"){
+		other.gameObject.GetComponent(PlayerStats).playerLives-=1;
+	}
 }
