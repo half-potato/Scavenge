@@ -3,8 +3,13 @@ var hungerNum:int = 100;
 var player:GameObject;
 var starve:boolean = true;
 var playerLives:int = 10;
+var KeysCollected:int;
 
 private var starveAmount:int = 1;
+
+function Start() {
+	 KeysCollected = 0;
+}
 
 function Update () {
 	if (starve && hungerNum>0) {

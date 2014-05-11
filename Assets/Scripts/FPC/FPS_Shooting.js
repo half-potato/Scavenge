@@ -19,12 +19,16 @@ var range:float = 100;
 var Weapons : GameObject[];
 var WeaponNumber = 0;
 
+
 //number of weapons that are not prefabs (raycasted)
-private var nonPrefabWeapons:int = 2;
+private var nonPrefabWeapons:int = 0;
+
+
 
 function Start () {
 	Screen.lockCursor = true;
  	cam = Camera.main;
+
 }
 
 function Update () {
@@ -84,11 +88,15 @@ function Update () {
 				Destroy(whatsGrabbed);
 				player.GetComponent(PlayerStats).hungerNum+=10;
 			}
-			Debug.Log("Hit object" + whatsGrabbed.tag);
-			//Debug.Log("Hit point" + hitPoint);
-			if(sparks!=null){
-				Instantiate(sparks, grabPoint, Quaternion.identity);
+			if(whatsGrabbed.tag == "Key"){
+				Debug.Log("Key!!!");
+				Destroy(whatsGrabbed);
+				player.GetComponent(PlayerStats).KeysCollected+=1;
+				
 			}
+			//Debug.Log("Hit object" + whatsGrabbed.tag);
+			//Debug.Log("Hit point" + hitPoint);
+			Instantiate(sparks, grabPoint, Quaternion.identity);
 		}
 	}
 		
