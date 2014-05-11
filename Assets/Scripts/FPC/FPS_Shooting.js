@@ -49,7 +49,7 @@ function Update () {
 		
 		//initiate prefabs
 		if(WeaponNumber<Weapons.length){
-			var theExplosive:GameObject = Instantiate(Weapons[WeaponNumber], cam.transform.position+cam.transform.forward*1.3, cam.transform.rotation);
+			var theExplosive:GameObject = Instantiate(Weapons[WeaponNumber], cam.transform.position+cam.transform.forward*2, cam.transform.rotation);
 			theExplosive.rigidbody.AddForce(cam.transform.forward * explosiveSpeed, ForceMode.Impulse);
 		}
 		
@@ -78,7 +78,7 @@ function Update () {
 
 	}
 	if(Input.GetButton("Fire2")){
-		var grab:Ray = new Ray(Camera.main.transform.position+cam.transform.forward, Camera.main.transform.forward);
+		var grab:Ray = new Ray(Camera.main.transform.position+cam.transform.forward*.5, Camera.main.transform.forward);
 		var grabInfo:RaycastHit;
 		
 		if( Physics.Raycast(grab,grabInfo, 2)){
@@ -93,6 +93,18 @@ function Update () {
 				Debug.Log("Key!!!");
 				Destroy(whatsGrabbed);
 				player.GetComponent(PlayerStats).KeysCollected+=1;
+				Instantiate(sparkels, grabPoint, Quaternion.identity);
+			}
+			if(whatsGrabbed.tag == "Jump"){
+				Debug.Log("JumpBoost!!!");
+				Destroy(whatsGrabbed);
+				player.GetComponent(PlayerStats).jumpheight+=1;
+				Instantiate(sparkels, grabPoint, Quaternion.identity);
+			}
+			if(whatsGrabbed.tag == "Health"){
+				Debug.Log("JumpBoost!!!");
+				Destroy(whatsGrabbed);
+				player.GetComponent(PlayerStats).playerLives+=1;
 				Instantiate(sparkels, grabPoint, Quaternion.identity);
 			}
 			//Debug.Log("Hit object" + whatsGrabbed.tag);

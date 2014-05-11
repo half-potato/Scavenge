@@ -2,8 +2,9 @@
 var hungerNum:int = 100;
 var player:GameObject;
 var starve:boolean = true;
-var playerLives:int = 10;
+var playerLives:int = 30;
 var KeysCollected:int;
+var jumpheight:float = 2.7;
 
 private var starveAmount:int = 1;
 
@@ -12,6 +13,7 @@ function Start() {
 }
 
 function Update () {
+	player.gameObject.GetComponent(CharacterMotor).jumping.baseHeight = jumpheight;
 	if (starve && hungerNum>0) {
 		Starving ();
 	}
