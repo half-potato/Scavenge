@@ -2,6 +2,8 @@
 var player:GameObject;
 var hitfo : RaycastHit;
 //var proj : GameObject;
+var life:int = 10;
+var explosion:GameObject;
 
 function Start () {
 
@@ -25,5 +27,10 @@ function Update () {
 
 		}
 		*/
+	}
+	
+	if(life<=0){
+		Destroy(gameObject);
+		Instantiate(explosion, transform.position, transform.rotation);
 	}
 }

@@ -1,5 +1,5 @@
 ﻿#pragma strict
-var explosiveSpeed:int = 20;
+var explosiveSpeed:int = 50;
 var bullet:GameObject;
 var cam:GameObject;
 var run:boolean = true;

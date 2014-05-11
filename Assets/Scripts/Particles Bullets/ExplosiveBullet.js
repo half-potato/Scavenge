@@ -17,10 +17,12 @@ function Update () {
 }
 
 function OnCollisionEnter(col:Collision){
-	if(col.gameObject.tag == "Enemy"){
-		Destroy(col.gameObject);
+	if(col.gameObject.tag=="Turret"){
 		Explode();
+		col.gameObject.GetComponent(TurretController).life-=1;
+		Debug.Log("collided!");
 	}
+
 }
 
 function Explode(){
