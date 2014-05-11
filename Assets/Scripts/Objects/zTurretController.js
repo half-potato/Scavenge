@@ -4,15 +4,16 @@ var bullet:GameObject;
 var cam:GameObject;
 var run:boolean = true;
 var turretClose:boolean=false;
-
+var audioClips : AudioClip;
 
 function Update () {
 	if (run && turretClose) {
-		ShootBullet ();
+		ShootBullet();
 	}
 }
 
 function ShootBullet(){
+	audio.PlayOneShot(audioClips);
 	run = false;
 	var bullet:GameObject = Instantiate(bullet, cam.transform.position+cam.transform.forward*1.3, cam.transform.rotation);
 	bullet.rigidbody.AddForce(cam.transform.forward * explosiveSpeed, ForceMode.Impulse);

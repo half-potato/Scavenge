@@ -1,8 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GUI\IsAlive.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Objects\SpaceStalker.js">
     <Files>
-      <File FileName="Assets\Scripts\GUI\IsAlive.js" Line="45" Column="41" />
+      <File FileName="Assets\Scripts\Objects\SpaceStalker.js" Line="4" Column="22" />
+      <File FileName="Assets\Scripts\Particles Bullets\ExplosiveBullet.js" Line="6" Column="1" />
+      <File FileName="Assets\Scripts\Particles Bullets\DestroyParticleSystem.js" Line="5" Column="31" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

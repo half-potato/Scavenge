@@ -5,6 +5,7 @@ var starve:boolean = true;
 var playerLives:int = 30;
 var KeysCollected:int;
 var jumpheight:float = 2.7;
+var hungerWait:float =3;
 
 private var starveAmount:int = 1;
 
@@ -37,11 +38,11 @@ function Starving(){
 	
 	starve = false;
 	
-	yield WaitForSeconds (3);
+	yield WaitForSeconds (hungerWait);
 	
 	hungerNum-=1;
 	
-    yield WaitForSeconds (3);
+    yield WaitForSeconds (hungerWait);
     
     starve = true;
     

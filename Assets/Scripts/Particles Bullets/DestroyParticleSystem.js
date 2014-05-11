@@ -1,4 +1,9 @@
 ﻿#pragma strict
+var audioClips : AudioClip;
+
+function Start () {
+		audio.PlayOneShot(audioClips);
+}
 
 
 function LateUpdate ()
