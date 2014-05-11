@@ -39,7 +39,7 @@ function OnGUI()
 function BuildWinPrompt(skin){
 	GUI.skin=skin;
 	Debug.Log(deathNote);
-	Screen.lockCursor = false;
+	Screen.lockCursor = true;
 	var winPromptW:int = Screen.width/2;
 	var winPromptH:int = Screen.height/1.4;
 	
