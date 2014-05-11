@@ -6,6 +6,6 @@ function Start () {
 }
 
 function Update () {
-	transform.LookAt(player.transform, Vector3.up);
-	transform.rotation.z+=extraRot;
+	var lookat = Vector3(player.transform.position.x, player.transform.position.y + 1, player.transform.position.z);
+	transform.LookAt(lookat, Vector3.up);
 }
