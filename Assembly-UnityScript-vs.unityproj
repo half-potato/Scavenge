@@ -51,9 +51,9 @@
      <Compile Include="Assets\Scripts\FPC\FPC.js" />
      <Compile Include="Assets\Scripts\FPC\FPCSlider.js" />
      <Compile Include="Assets\Scripts\FPC\FPS_Shooting.js" />
-     <Compile Include="Assets\Scripts\FPC\IsAlive.js" />
      <Compile Include="Assets\Scripts\FPC\PlayerStats.js" />
      <Compile Include="Assets\Scripts\GUI\HungerMenu.js" />
+     <Compile Include="Assets\Scripts\GUI\IsAlive.js" />
      <Compile Include="Assets\Scripts\GUI\LifeMenu.js" />
      <Compile Include="Assets\Scripts\Objects\Key.js" />
      <Compile Include="Assets\Scripts\Objects\SpawnMeteor.js" />

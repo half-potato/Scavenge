@@ -6,32 +6,39 @@ var hunger:int;
 
 
 public var customSkin:GUISkin;
+public var WinSkin:GUISkin;
 private var deathNote:String;
+var keys:int;
 
 function Update(){
 	if(player){
 		hunger = player.GetComponent(PlayerStats).hungerNum;
+		keys = player.GetComponent(PlayerStats).KeysCollected;
 	}
 }
 
 function OnGUI()
 {
-	GUI.skin=customSkin;
+	
 	GUILayout.BeginArea (Rect (0,0,Screen.width,Screen.height)); 
-	if(!player && hunger > 0){
+	if(!player && hunger > 0 && keys < 5){
 		deathNote = "Looks Like You Got Killed";
-		BuildWinPrompt();
+		BuildWinPrompt(customSkin);
+	} else if(!player && hunger <= 0 && keys < 5){
+		deathNote = "Hungry?";
+		BuildWinPrompt(customSkin);
+	} else if(!player){
+		deathNote = "You Win!!!!!!!!!!!!!!!!";
+		BuildWinPrompt(WinSkin);
 	}
 	
-	if(!player && hunger <= 0){
-		deathNote = "Hungry?";
-		BuildWinPrompt();
-	}
 	GUILayout.EndArea();
 	//print("building grid!");
 }
 
-function BuildWinPrompt(){
+function BuildWinPrompt(skin){
+	GUI.skin=skin;
+	Debug.Log(deathNote);
 	Screen.lockCursor = true;
 	var winPromptW:int = Screen.width/2;
 	var winPromptH:int = Screen.height/1.4;
