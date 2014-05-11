@@ -4,6 +4,7 @@
 var explosion:GameObject;
 var sparks:GameObject;
 var player:GameObject;
+var sparkels:GameObject;
 //aiming
 var shootPos:Vector3;
 var cam:Camera;
@@ -92,7 +93,7 @@ function Update () {
 				Debug.Log("Key!!!");
 				Destroy(whatsGrabbed);
 				player.GetComponent(PlayerStats).KeysCollected+=1;
-				
+				Instantiate(sparkels, grabPoint, Quaternion.identity);
 			}
 			//Debug.Log("Hit object" + whatsGrabbed.tag);
 			//Debug.Log("Hit point" + hitPoint);

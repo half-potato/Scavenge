@@ -24,6 +24,10 @@ function Update () {
 		Destroy(this.gameObject);
 	}
 	
+	if ( KeysCollected>= 5) {
+		Destroy(this.gameObject);
+	}
+	
 	
 } 
 
