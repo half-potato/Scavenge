@@ -56,6 +56,7 @@
      <Compile Include="Assets\Scripts\GUI\HungerMenu.js" />
      <Compile Include="Assets\Scripts\GUI\IsAlive.js" />
      <Compile Include="Assets\Scripts\GUI\LifeMenu.js" />
+     <Compile Include="Assets\Scripts\GUI\Title.js" />
      <Compile Include="Assets\Scripts\Objects\GUI.js" />
      <Compile Include="Assets\Scripts\Objects\Key.js" />
      <Compile Include="Assets\Scripts\Objects\Rotate.js" />

@@ -40,8 +40,8 @@ function BuildWinPrompt(skin){
 	GUI.skin=skin;
 	Debug.Log(deathNote);
 	Screen.lockCursor = false;
-	var winPromptW:int = Screen.width/2;
-	var winPromptH:int = Screen.height/1.4;
+	var winPromptW:int = Screen.width/2.5;
+	var winPromptH:int = Screen.height/1.2;
 	
 	var halfScreenW:float = Screen.width/2;
 	var halfScreenH:float = Screen.height/2;
@@ -55,8 +55,8 @@ function BuildWinPrompt(skin){
 	var buttonW:int = 150;
 	var buttonH:int = 50;
 	
-	//if(GUI.Button(Rect(halfPromptW-(buttonW/2),winPromptH-(buttonW/2),buttonW,buttonH),"Play Again")){
-		//Application.LoadLevel("Main");
-	//}
+	if(GUI.Button(Rect(halfPromptW-(buttonW/2),winPromptH-(buttonW),buttonW,buttonH),"Play Again")){
+		Application.LoadLevel("Main");
+	}
 	GUI.EndGroup();
 }
