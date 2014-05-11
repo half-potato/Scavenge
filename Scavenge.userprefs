@@ -1,17 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-<<<<<<< HEAD
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Objects\Rotate.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GUI\IsAlive.js">
     <Files>
-      <File FileName="Assets\Scripts\FPC\FPS_Shooting.js" Line="136" Column="1" />
-      <File FileName="Assets\Scripts\GUI\IsAlive.js" Line="58" Column="64" />
-      <File FileName="Assets\Scripts\GUI\Title.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Objects\Rotate.js" Line="7" Column="2" />
+      <File FileName="Assets\Scripts\GUI\IsAlive.js" Line="45" Column="41" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-=======
-  <MonoDevelop.Ide.Workbench />
->>>>>>> 999a7d57827e95743fab944ba74eb110fbb176ac
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
