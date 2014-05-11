@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\FPC\PlayerStats.js">
+    <Files>
+      <File FileName="Assets\Scripts\FPC\FPS_Shooting.js" Line="83" Column="27" />
+      <File FileName="Assets\Scripts\Particles Bullets\ExplosiveBullet.js" Line="20" Column="36" />
+      <File FileName="Assets\Scripts\FPC\FPC Collider.js" Line="37" Column="27" />
+      <File FileName="Assets\Scripts\FPC\PlayerStats.js" Line="25" Column="29" />
+      <File FileName="Assets\Scripts\Objects\SpawnMeteor.js" Line="17" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
