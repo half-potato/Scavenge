@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Objects\TurretController.js">
+    <Files>
+      <File FileName="Assets\Scripts\FPC\FPC Particle Detector.js" Line="4" Column="54" />
+      <File FileName="Assets\Scripts\FPC\FPC Collider.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\FPC\FPS_Shooting.js" Line="63" Column="5" />
+      <File FileName="Assets\Scripts\Objects\TurretController.js" Line="12" Column="2" />
+      <File FileName="Assets\Scripts\Objects\SpawnMeteor.js" Line="14" Column="24" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
