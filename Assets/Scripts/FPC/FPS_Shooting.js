@@ -3,6 +3,7 @@
 //explosion prefab
 var explosion:GameObject;
 var sparks:GameObject;
+var player:GameObject;
 //aiming
 var shootPos:Vector3;
 var cam:Camera;
@@ -43,7 +44,7 @@ function Update () {
 		
 		//initiate prefabs
 		if(WeaponNumber<Weapons.length){
-			var theExplosive:GameObject = Instantiate(Weapons[WeaponNumber], cam.transform.position+cam.transform.forward*2, cam.transform.rotation);
+			var theExplosive:GameObject = Instantiate(Weapons[WeaponNumber], cam.transform.position+cam.transform.forward*1.3, cam.transform.rotation);
 			theExplosive.rigidbody.AddForce(cam.transform.forward * explosiveSpeed, ForceMode.Impulse);
 		}
 		
@@ -81,6 +82,7 @@ function Update () {
 			if(whatsGrabbed.tag == "Food"){
 				Debug.Log("food!!");
 				Destroy(whatsGrabbed);
+				player.GetComponent(PlayerStats).hungerNum+=10;
 			}
 			Debug.Log("Hit object" + whatsGrabbed.tag);
 			//Debug.Log("Hit point" + hitPoint);

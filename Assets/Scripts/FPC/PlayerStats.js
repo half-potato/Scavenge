@@ -18,11 +18,11 @@ function spawnMeteor(){
 	
 	starve = false;
 	
-	yield WaitForSeconds (.5);
+	yield WaitForSeconds (3);
 	
 	hungerNum-=1;
 	
-    yield WaitForSeconds (.5);
+    yield WaitForSeconds (3);
     
     starve = true;
     

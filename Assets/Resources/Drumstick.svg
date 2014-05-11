@@ -7,6 +7,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="744.09448819"
@@ -14,9 +15,93 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="New document 1">
+   sodipodi:docname="Drumstick.svg"
+   inkscape:export-filename="C:\Users\Zachary\Desktop\Codeing\Unity\Survive\Assets\Resources\Drumstick.png"
+   inkscape:export-xdpi="98.482895"
+   inkscape:export-ydpi="98.482895">
   <defs
-     id="defs4" />
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3023">
+      <stop
+         style="stop-color:#ffccaa;stop-opacity:1"
+         offset="0"
+         id="stop3025" />
+      <stop
+         style="stop-color:#ff7f2a;stop-opacity:1"
+         offset="1"
+         id="stop3027" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3011">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0"
+         id="stop3013" />
+      <stop
+         style="stop-color:#b3b3b3;stop-opacity:1"
+         offset="1"
+         id="stop3015" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3003">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0"
+         id="stop3005" />
+      <stop
+         style="stop-color:#cccccc;stop-opacity:1"
+         offset="1"
+         id="stop3007" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3003"
+       id="radialGradient3009"
+       cx="451.39972"
+       cy="555.11249"
+       fx="451.39972"
+       fy="555.11249"
+       r="50.507626"
+       gradientTransform="matrix(1.2399999,0.01000004,-0.00153235,0.18999382,-107.34679,464.57806)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3011"
+       id="radialGradient3017"
+       cx="417.11465"
+       cy="565.79266"
+       fx="417.11465"
+       fy="565.79266"
+       r="8.75"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.1703843,-1.2948502e-6,1.1707311e-6,1,-71.003331,0.06003544)" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3011"
+       id="radialGradient3021"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.1703843,-1.2948502e-6,1.1707311e-6,1,-71.003331,0.06003544)"
+       cx="417.11465"
+       cy="565.79266"
+       fx="417.11465"
+       fy="565.79266"
+       r="8.75" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3023"
+       id="radialGradient3029"
+       cx="1495.4512"
+       cy="382.74847"
+       fx="1495.4512"
+       fy="382.74847"
+       r="90.408653"
+       gradientTransform="matrix(0.72710511,0.10799546,-0.04690593,0.29743817,-479.1439,282.24798)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -25,8 +110,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="513.88124"
-     inkscape:cy="500.05479"
+     inkscape:cx="683.67745"
+     inkscape:cy="419.56646"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -52,42 +137,54 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="fill:url(#radialGradient3009);fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="rect2987"
        width="101.01525"
        height="19.192898"
        x="411.13208"
        y="569.50928"
-       ry="9.5964489" />
+       ry="9.5964489"
+       inkscape:export-filename="C:\Users\Zachary\Desktop\Codeing\Unity\Survive\Assets\Resources\Drumstick.png"
+       inkscape:export-xdpi="100.13807"
+       inkscape:export-ydpi="100.13807" />
     <path
        sodipodi:type="arc"
-       style="fill:#ff7f2a;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="fill:url(#radialGradient3029);fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="path2985"
        sodipodi:cx="577.30219"
        sodipodi:cy="577.59052"
        sodipodi:rx="90.408653"
        sodipodi:ry="47.477169"
        d="m 667.71084,577.59052 a 90.408653,47.477169 0 1 1 -180.81731,0 90.408653,47.477169 0 1 1 180.81731,0 z"
-       transform="matrix(1.1114753,0,0,1.1452857,-70.163342,-86.772776)" />
+       transform="matrix(1.1114753,0,0,1.1452857,-70.163342,-86.772776)"
+       inkscape:export-filename="C:\Users\Zachary\Desktop\Codeing\Unity\Survive\Assets\Resources\Drumstick.png"
+       inkscape:export-xdpi="100.13807"
+       inkscape:export-ydpi="100.13807" />
     <path
-       sodipodi:type="arc"
-       style="fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       id="path2991"
-       sodipodi:cx="418.03571"
-       sodipodi:cy="568.61218"
-       sodipodi:rx="8.75"
-       sodipodi:ry="8.75"
-       d="m 426.78571,568.61218 a 8.75,8.75 0 1 1 -17.5,0 8.75,8.75 0 1 1 17.5,0 z"
-       transform="matrix(1.1836735,0,0,1.1836735,-82.674926,-103.18897)" />
-    <path
-       transform="matrix(1.1836735,0,0,1.1836735,-82.674926,-84.617541)"
+       transform="matrix(1.1836735,0,0,1.1836735,-86.21046,-83.102312)"
        d="m 426.78571,568.61218 a 8.75,8.75 0 1 1 -17.5,0 8.75,8.75 0 1 1 17.5,0 z"
        sodipodi:ry="8.75"
        sodipodi:rx="8.75"
        sodipodi:cy="568.61218"
        sodipodi:cx="418.03571"
        id="path2993"
-       style="fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       sodipodi:type="arc" />
+       style="fill:url(#radialGradient3017);fill-opacity:1;fill-rule:nonzero;stroke:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="C:\Users\Zachary\Desktop\Codeing\Unity\Survive\Assets\Resources\Drumstick.png"
+       inkscape:export-xdpi="100.13807"
+       inkscape:export-ydpi="100.13807" />
+    <path
+       inkscape:export-ydpi="100.13807"
+       inkscape:export-xdpi="100.13807"
+       inkscape:export-filename="C:\Users\Zachary\Desktop\Codeing\Unity\Survive\Assets\Resources\Drumstick.png"
+       sodipodi:type="arc"
+       style="fill:url(#radialGradient3021);fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path3019"
+       sodipodi:cx="418.03571"
+       sodipodi:cy="568.61218"
+       sodipodi:rx="8.75"
+       sodipodi:ry="8.75"
+       d="m 426.78571,568.61218 a 8.75,8.75 0 1 1 -17.5,0 8.75,8.75 0 1 1 17.5,0 z"
+       transform="matrix(1.1836735,0,0,1.1836735,-86.715536,-102.80029)" />
   </g>
 </svg>

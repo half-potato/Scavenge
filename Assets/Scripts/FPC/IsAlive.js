@@ -32,6 +32,7 @@ function OnGUI()
 }
 
 function BuildWinPrompt(){
+	Screen.lockCursor = true;
 	var winPromptW:int = Screen.width/2;
 	var winPromptH:int = Screen.height/1.4;
 	
