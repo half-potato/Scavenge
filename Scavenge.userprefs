@@ -1,9 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/FPC/FPC.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Objects/TurretController.js">
     <Files>
-      <File FileName="Assets/Scripts/Objects/TurretController.js" Line="7" Column="21" />
-      <File FileName="Assets/Scripts/FPC/FPC.js" Line="51" Column="60" />
+      <File FileName="Assets/Scripts/Objects/TurretController.js" Line="18" Column="74" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
