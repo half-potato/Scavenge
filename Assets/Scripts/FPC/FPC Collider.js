@@ -31,6 +31,6 @@ function OnControllerColliderHit (hit : ControllerColliderHit) {
 		
 		if(hit.gameObject.tag == "KO"){
 			
-			this.gameObject.GetComponent(PlayerStats).playerLives-=1;
+//			this.gameObject.GetComponent(PlayerStats).playerLives-=1;
 		}
 	}

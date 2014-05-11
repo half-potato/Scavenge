@@ -1,16 +1,6 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GUI\HungerMenu.js">
-    <Files>
-      <File FileName="Assets\Scripts\Objects\zTurretController.js" Line="26" Column="20" />
-      <File FileName="Assets\Scripts\Particles Bullets\ExplosiveBullet.js" Line="28" Column="20" />
-      <File FileName="Assets\Scripts\GUI\HungerMenu.js" Line="1" Column="10" />
-      <File FileName="Assets\Scripts\FPC\FPC Particle Detector.js" Line="2" Column="23" />
-      <File FileName="Assets\Scripts\FPC\IsAlive.js" Line="4" Column="11" />
-      <File FileName="Assets\Scripts\FPC\PlayerStats.js" Line="16" Column="3" />
-      <File FileName="Assets\Scripts\Objects\TurretController.js" Line="5" Column="5" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
