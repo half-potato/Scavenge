@@ -30,8 +30,7 @@ function OnControllerColliderHit (hit : ControllerColliderHit) {
 		body.velocity = pushDir * pushPower;
 		
 		if(hit.gameObject.tag == "KO"){
-			cc.enabled = false;
-			Time.timeScale = 0;
-			Destroy(this.gameObject);
+			
+			this.gameObject.GetComponent(PlayerStats).playerLives-=1;
 		}
 	}
