@@ -29,8 +29,6 @@ function OnControllerColliderHit (hit : ControllerColliderHit) {
 		// Apply the push
 		body.velocity = pushDir * pushPower;
 		
-		Debug.Log(hit);
-		
 		if(hit.gameObject.tag == "KO"){
 			cc.enabled = false;
 			Time.timeScale = 0;
