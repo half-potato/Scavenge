@@ -52,14 +52,17 @@
      <Compile Include="Assets\Scripts\FPC\FPCSlider.js" />
      <Compile Include="Assets\Scripts\FPC\FPS_Shooting.js" />
      <Compile Include="Assets\Scripts\FPC\PlayerStats.js" />
-     <Compile Include="Assets\Scripts\GUI\Fade.js" />
      <Compile Include="Assets\Scripts\GUI\HungerMenu.js" />
      <Compile Include="Assets\Scripts\GUI\IsAlive.js" />
      <Compile Include="Assets\Scripts\GUI\LifeMenu.js" />
+<<<<<<< HEAD
      <Compile Include="Assets\Scripts\GUI\Title.js" />
      <Compile Include="Assets\Scripts\Objects\GUI.js" />
      <Compile Include="Assets\Scripts\Objects\Key.js" />
      <Compile Include="Assets\Scripts\Objects\Rotate.js" />
+=======
+     <Compile Include="Assets\Scripts\Objects\Key.js" />
+>>>>>>> 999a7d57827e95743fab944ba74eb110fbb176ac
      <Compile Include="Assets\Scripts\Objects\SpawnMeteor.js" />
      <Compile Include="Assets\Scripts\Objects\TurretController.js" />
      <Compile Include="Assets\Scripts\Objects\zTurretController.js" />

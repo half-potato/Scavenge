@@ -5,7 +5,6 @@ var explosion:GameObject;
 var sparks:GameObject;
 var player:GameObject;
 var sparkels:GameObject;
-var description:GameObject;
 //aiming
 var shootPos:Vector3;
 var cam:Camera;
@@ -61,7 +60,7 @@ function Update () {
 	if(Input.GetButton("Fire1")){	
 		//machineGun
 		if(WeaponNumber == Weapons.length && cooldownRemaining <=0){
-			var ray:Ray = new Ray(Camera.main.transform.position+cam.transform.forward, Camera.main.transform.forward*2);
+			var ray:Ray = new Ray(Camera.main.transform.position+cam.transform.forward, Camera.main.transform.forward);
 			var hitInfo:RaycastHit;
 			
 			if( Physics.Raycast(ray,hitInfo, range)){
@@ -89,41 +88,24 @@ function Update () {
 				Debug.Log("food!!");
 				Destroy(whatsGrabbed);
 				player.GetComponent(PlayerStats).hungerNum+=10;
-				description.gameObject.GetComponent(Fade).trans = true;
-				description.gameObject.GetComponent(Fade).run = true;
-				description.guiText.material.color.a = 0;
-				description.guiText.text = "Fed Well";
 			}
 			if(whatsGrabbed.tag == "Key"){
 				Debug.Log("Key!!!");
 				Destroy(whatsGrabbed);
 				player.GetComponent(PlayerStats).KeysCollected+=1;
 				Instantiate(sparkels, grabPoint, Quaternion.identity);
-				description.gameObject.GetComponent(Fade).trans = true;
-				description.gameObject.GetComponent(Fade).run = true;
-				description.guiText.material.color.a = 0;
-				description.guiText.text = "Key Gained";
 			}
 			if(whatsGrabbed.tag == "Jump"){
 				Debug.Log("JumpBoost!!!");
 				Destroy(whatsGrabbed);
 				player.GetComponent(PlayerStats).jumpheight+=1;
 				Instantiate(sparkels, grabPoint, Quaternion.identity);
-				description.gameObject.GetComponent(Fade).trans = true;
-				description.gameObject.GetComponent(Fade).run = true;
-				description.guiText.material.color.a = 0;
-				description.guiText.text = "Jump Increase";
 			}
 			if(whatsGrabbed.tag == "Health"){
-				Debug.Log("Health!!!");
+				Debug.Log("JumpBoost!!!");
 				Destroy(whatsGrabbed);
 				player.GetComponent(PlayerStats).playerLives+=1;
 				Instantiate(sparkels, grabPoint, Quaternion.identity);
-				description.gameObject.GetComponent(Fade).trans = true;
-				description.guiText.material.color.a = 0;
-				description.gameObject.GetComponent(Fade).run = true;
-				description.guiText.text = "Gain Health";
-				
 			}
 			//Debug.Log("Hit object" + whatsGrabbed.tag);
 			//Debug.Log("Hit point" + hitPoint);

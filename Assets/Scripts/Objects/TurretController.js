@@ -12,22 +12,21 @@ function Start () {
 function Update () {
 
 	if(player){
-		var lookat = Vector3(player.transform.localPosition.x, player.transform.localPosition.y + 1, player.transform.localPosition.z);
-		transform.LookAt(lookat);
+		var lookat = Vector3(player.transform.position.x, player.transform.position.y + 1, player.transform.position.z);
+		transform.LookAt(lookat, Vector3.up);
 		
-		transform.rotation.z = 0;
-		transform.rotation.x = 0;
-		
-		/*if (Physics.Raycast(transform.position, player.transform.position - transform.position, hitfo)) {
+		transform.rotation.z = Mathf.Clamp(transform.rotation.z, 0, 90);
+		/*
+		if (Physics.Raycast(transform.position, player.transform.position - transform.position, hitfo)) {
 			Debug.Log(hitfo.collider.gameObject.tag);
-			//if (hitfo.collider.gameObject.CompareTag("Player")) {
-				explosion.rigidbody.AddForce(player.transform.position - transform.position);
-				var bulletPos = Vector3(transform.position.x, transform.position.y + 4, transform.position.z - 2);
-				Instantiate(explosion, bulletPos, Quaternion.identity);
-			//}
+			if (hitfo.collider.gameObject.CompareTag("Player")) {
+				proj.rigidbody.AddForce(player.transform.position - transform.position);
+				var bulletPos = Vector3(transform.position.x, transform.position.y + 2, transform.position.z);
+				Instantiate(proj, bulletPos, Quaternion.identity);
+			}
 
-		}*/
-		
+		}
+		*/
 	}
 	
 	if(life<=0){
