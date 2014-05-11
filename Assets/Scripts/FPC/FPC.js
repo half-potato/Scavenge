@@ -48,7 +48,7 @@ function Update () {
 	//Vertical Velocity for Gravity and Jump
 
 
-	if(Input.GetButton("Jump") && cc.isGrounded){
+	if((Input.GetButton("Jump") || Input.inputString == "\b" )&& cc.isGrounded){
 		velocityVertical = jumpVelocity;
 	} else if (!cc.isGrounded){
 		velocityVertical += Physics.gravity.y*Time.deltaTime;
