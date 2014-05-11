@@ -50,7 +50,7 @@ function Update () {
 		
 		//initiate prefabs
 		if(WeaponNumber<Weapons.length){
-			var theExplosive:GameObject = Instantiate(Weapons[WeaponNumber], cam.transform.position+cam.transform.forward*2, cam.transform.rotation);
+			var theExplosive:GameObject = Instantiate(Weapons[WeaponNumber], cam.transform.position+cam.transform.forward*2.5, cam.transform.rotation);
 			theExplosive.rigidbody.AddForce(cam.transform.forward * explosiveSpeed, ForceMode.Impulse);
 		}
 		
