@@ -55,6 +55,7 @@
      <Compile Include="Assets\Scripts\FPC\PlayerStats.js" />
      <Compile Include="Assets\Scripts\GUI\Fade.js" />
      <Compile Include="Assets\Scripts\GUI\HungerMenu.js" />
+     <Compile Include="Assets\Scripts\GUI\Instructions.js" />
      <Compile Include="Assets\Scripts\GUI\IsAlive.js" />
      <Compile Include="Assets\Scripts\GUI\LifeMenu.js" />
      <Compile Include="Assets\Scripts\GUI\Title.js" />

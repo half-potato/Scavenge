@@ -21,7 +21,7 @@ function BuildWinPrompt(){
 	var halfPromptH:int = winPromptH/2;
 
 	GUI.BeginGroup(Rect(halfScreenW-halfPromptW, halfScreenH-halfPromptH, winPromptW, winPromptH));
-	GUI.Box (Rect (0,0,winPromptW,winPromptH), "Scavenger");
+	GUI.Box (Rect (0,0,winPromptW,winPromptH), "Fruits refill hunger, candy gives you a jump boost, find all 5 keys and you win the game.  Left click to throw bombs, right to pick up items. Most importantly survive!!");
 	
 	var buttonW:int = 150;
 	var buttonH:int = 50;
